@@ -9,9 +9,18 @@
                 max-width: 100vw;
                 vertical-align: top;
             }
+            img#responsive {
+                display: none;
+            }
+            @media screen and (max-width: 768px) {
+                img#responsive {
+                    display: block;
+                }
+            }
         </style>
     </head>
     <body>
+        <img src="resources/responsive.webp" alt="responsive_img" id="responsive">
         <img src="resources/header.jpg" alt="header_img">
         <img src="resources/hero.jpg" alt="hero_img">
         <img src="resources/acustica.webp" alt="">  
